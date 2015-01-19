@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import urllib2
+import sqlite3
 
 def getYahooStockQuote(symbol):
 	url = "http://download.finance.yahoo.com/d/quotes.csv?s=%s&f=sl1d1c1hgv" % symbol
@@ -19,3 +20,4 @@ def getYahooStockQuote(symbol):
 	return D
 	
 print getYahooStockQuote('GOOG')
+
