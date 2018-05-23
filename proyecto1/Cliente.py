@@ -21,3 +21,4 @@ conndb.close()
 
 conn.close()
 print "Conexion exitosa"
+print "Conexion 2"
